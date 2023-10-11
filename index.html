@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google clon malo</title>
+    <!--aqui ponemos la coneccción al css-->
+    <link rel="stylesheet" href="./main.css">
+</head>
+<!-- body es lo que el usuario ve-->
+<body>
+<!--header es lo que contiene la navegación-->
+<header>
+    <!--vamos a comenzar con la etiqueta de navegacion-->
+    <nav>
+        <!-- ul: para lista no ordenada-->
+        <ul class="nav-right-section">
+             <!--agarramos el atajo li*4-->
+             <!--este primero es para el primer ancla de gmail.-->
+             <li>
+                <a href="https://mail.google.com/mail/u/0/">Gmail</a>
+             </li>
+             <!--este es para el segundo icono que es google imagenes-->
+             <li>
+                <a href="https://www.google.com/imghp?hl=es-419&ogbl">Imagenes</a>
+             </li>
+             <!--este es para el icono de los puntitos que salen aplicaciones Googles-Apps-->
+             <li class="menu">
+                <a href="https://www.google.com.mx/intl/es/about/products">
+                    <img src="" alt="">
+                </a>
+
+             </li>
+             <!--este es para la imagen de la cuenta-->
+             <li>
+                <!--aqui abirmos un ancla y metemos imagen con link de la imagen y en "a" igual el link a google cuentas-->
+                <a href="https://accounts.google.com/SignOutOptions?hl=es-419&continue=https://www.google.com/imghp%3Fhl%3Des-419%26ogbl&ec=GBRAAg">
+                    <img src="https://lh3.googleusercontent.com/ogw/AKPQZvx1jwcrlj2BFpmkttYvOTVn8FKjn4XjpBVH_tok8g=s32-c-mo" alt="foto-usuario">
+                </a>
+             </li>
+
+
+        </ul>
+       
+        
+    </nav>
+</header>
+<!-- MAIN - dIVISION Y ES LO MÁS IMPORTANTE-->
+<main>
+    <!--section -es una caja para acomodar elementos logo-->
+    <section class="main-logo">
+        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="logo de google">
+    </section>
+    <!--buscador input-->
+    <section class="main-input">
+        <div class="main-input-container">
+            <span class="search-icon"></span>
+            <input type="text">
+            <a class="micro-icon" href=""></a>
+            <a class="cam-icon" href=""></a>
+        </div>
+    </section>
+    <!--botones-->
+    <section class="main-buttons">
+        <!--div -dvision-->
+        <div>
+            <button>Buscar con Google</button>
+        </div>
+        <div>
+            <button>Voy a tener suerte</button>
+        </div>
+    </section>
+
+</main>
+<footer>
+    <!--preguntar si se puede poner sin el <li></li>-->
+    <section> 
+        <span>México</span>
+    </section>
+    
+    <section class="info-izq">
+        <div> 
+           <a href="https://about.google/?utm_source=google-MX&utm_medium=referral&utm_campaign=hp-footer&fg=1">Sobre Google</a>
+            <a href="https://ads.google.com/intl/es_mx/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicidad</a>
+            <a href="https://smallbusiness.withgoogle.com/intl/es-419_mx/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=ww-ww-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u&c=MX#!/">Negocios</a>
+            <a href="https://www.google.com/search/howsearchworks/?fg=1">Cómo funciona la Búsqueda</a>
+        
+        </div>
+        <div >
+            <a href="https://policies.google.com/privacy?hl=es-MX&fg=1">Privacidad</a>
+            <a href="https://policies.google.com/terms?hl=es-MX&fg=1">Condiciones</a> 
+            <a href="">Preferencias</a> 
+        </div>
+    </section>
+   
+</footer>
+</body>
+</html>
